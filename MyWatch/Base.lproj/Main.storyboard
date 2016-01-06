@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NeF-4D-9K2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NeP-WS-uKT">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="NeF-4D-9K2" customClass="ViewController" customModule="MyWatch" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UiP-t5-lHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="310"/>
+        </scene>
+        <!--Weather View Controller-->
+        <scene sceneID="oGf-Zo-fJA">
+            <objects>
+                <viewController id="TDq-gY-Ouq" customClass="WeatherViewController" customModule="MyWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E7P-aL-xKu"/>
+                        <viewControllerLayoutGuide type="bottom" id="sm5-i0-Qwp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0s2-J5-MtZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="MU3-kr-JKH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow" translatesAutoresizingMaskIntoConstraints="NO" id="lpm-Lp-vdf">
+                                <rect key="frame" x="235" y="238" width="130" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="ITW-9f-Bba"/>
+                                    <constraint firstAttribute="width" constant="130" id="mCP-6H-ZfW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sm5-i0-Qwp" firstAttribute="top" secondItem="MU3-kr-JKH" secondAttribute="bottom" id="89V-2l-BQ7"/>
+                            <constraint firstItem="MU3-kr-JKH" firstAttribute="top" secondItem="E7P-aL-xKu" secondAttribute="bottom" id="8Po-hq-1Q0"/>
+                            <constraint firstItem="MU3-kr-JKH" firstAttribute="top" secondItem="0s2-J5-MtZ" secondAttribute="topMargin" id="GpV-mD-L0H"/>
+                            <constraint firstItem="MU3-kr-JKH" firstAttribute="leading" secondItem="0s2-J5-MtZ" secondAttribute="leading" id="S7B-sC-Lw3"/>
+                            <constraint firstItem="lpm-Lp-vdf" firstAttribute="centerX" secondItem="0s2-J5-MtZ" secondAttribute="centerX" id="hxy-Ql-42c"/>
+                            <constraint firstAttribute="trailing" secondItem="MU3-kr-JKH" secondAttribute="trailing" id="vI8-Vv-7Zy"/>
+                            <constraint firstItem="lpm-Lp-vdf" firstAttribute="centerY" secondItem="0s2-J5-MtZ" secondAttribute="centerY" id="zrn-16-tO5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8Po-hq-1Q0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnb-vH-UCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="310"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="320" height="568"/>
+        <image name="snow" width="130" height="123"/>
+    </resources>
+</document>
