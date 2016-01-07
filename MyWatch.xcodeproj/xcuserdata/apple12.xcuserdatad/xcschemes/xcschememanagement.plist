@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>ModelFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>MyWatch WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>29295EDA1C3D5CF200A45B3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29ECBE381C3EB9B20046EA49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29ECBE411C3EB9B20046EA49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
