@@ -743,6 +743,7 @@
 				29295F021C3D5CF200A45B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29295F041C3D5CF200A45B3C /* Build configuration list for PBXNativeTarget "MyWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -751,6 +752,7 @@
 				29295F061C3D5CF200A45B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29295F081C3D5CF200A45B3C /* Build configuration list for PBXNativeTarget "MyWatch" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +761,7 @@
 				29295F0A1C3D5CF200A45B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29295F0B1C3D5CF200A45B3C /* Build configuration list for PBXNativeTarget "MyWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -767,6 +770,7 @@
 				29295F0D1C3D5CF200A45B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29295F0E1C3D5CF200A45B3C /* Build configuration list for PBXNativeTarget "MyWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -775,6 +779,7 @@
 				29295F101C3D5CF200A45B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
