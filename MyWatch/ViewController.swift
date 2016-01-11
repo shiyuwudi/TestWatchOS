@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 import ModelFramework
 
 class ViewController: UIPageViewController {
@@ -17,6 +18,7 @@ class ViewController: UIPageViewController {
         dataSource = self
         let navi = weatherViewControllerForDay(.Today)
         setViewControllers([navi], direction: .Forward, animated: true, completion: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,13 +31,14 @@ class ViewController: UIPageViewController {
     */
     func weatherViewControllerForDay(day:Day)->UIViewController{
         let weatherVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("WeatherViewController") as! WeatherViewController
-        let navi = UINavigationController.init(rootViewController: weatherVC)
         weatherVC.day = day
+        let navi = UINavigationController.init(rootViewController: weatherVC)
         return navi
     }
     
 }
 
+//用拓展来分离出数据源方法
 extension ViewController: UIPageViewControllerDataSource{
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {

@@ -30,6 +30,7 @@
 		29ECBE4E1C3EB9B20046EA49 /* ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29ECBE391C3EB9B20046EA49 /* ModelFramework.framework */; };
 		29ECBE4F1C3EB9B20046EA49 /* ModelFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29ECBE391C3EB9B20046EA49 /* ModelFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		29ECBE581C3EBB130046EA49 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECBE571C3EBB130046EA49 /* Day.swift */; };
+		29ECBF051C43EDB40046EA49 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECBF041C43EDB40046EA49 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 		29ECBE491C3EB9B20046EA49 /* ModelFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFrameworkTests.swift; sourceTree = "<group>"; };
 		29ECBE4B1C3EB9B20046EA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29ECBE571C3EBB130046EA49 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		29ECBF041C43EDB40046EA49 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 				29ECBE3B1C3EB9B20046EA49 /* ModelFramework.h */,
 				29ECBE3D1C3EB9B20046EA49 /* Info.plist */,
 				29ECBE571C3EBB130046EA49 /* Day.swift */,
+				29ECBF041C43EDB40046EA49 /* Weather.swift */,
 			);
 			path = ModelFramework;
 			sourceTree = "<group>";
@@ -617,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29ECBF051C43EDB40046EA49 /* Weather.swift in Sources */,
 				29ECBE581C3EBB130046EA49 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1041,6 +1045,7 @@
 				29ECBE521C3EB9B20046EA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29ECBE541C3EB9B20046EA49 /* Build configuration list for PBXNativeTarget "ModelFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -1049,6 +1054,7 @@
 				29ECBE561C3EB9B20046EA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
